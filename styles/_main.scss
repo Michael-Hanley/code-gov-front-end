@@ -4,9 +4,6 @@
 @import '~@code.gov/code-gov-font/css/code-gov';
 /*@import '~devicons/css/devicons.scss';*/
 
-$header-height: 50px;
-$official-banner-height: $header-height - 10px;
-
 @import '~@code.gov/code-gov-style/_sass/_all.scss';
 
 @import './overrides.scss';
@@ -29,8 +26,6 @@ html {
 @import './home-about.scss';
 @import './home-banner.scss';
 @import './home-press.scss';
-
-@import './official-banner.scss';
 
 @import './menu.scss';
 

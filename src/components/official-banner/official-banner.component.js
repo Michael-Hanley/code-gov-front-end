@@ -1,15 +1,14 @@
 import React from 'react'
 
 export default function OfficialBanner({bannerOptions}) {
-  if (bannerOptions.show){
+  if (bannerOptions.show) {
     return (
-      <div className="official-banner">
-          <div className="banner-flag indented">
-              <img src={bannerOptions.flag_icon} alt={bannerOptions.alt}/><span>{bannerOptions.title}</span>
-          </div>
-      </div>
-    )
+       <gov-banner 
+        flag_icon={bannerOptions.flag_icon} 
+        alt={bannerOptions.alt}
+        title={bannerOptions.title} />
+    );
   } else {
-    return null
+    return null;
   }
 }
